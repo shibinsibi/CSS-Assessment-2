@@ -115,6 +115,35 @@
     position: relative;
     bottom: 20px;
 }
-.l5 {
+#l5 {
+    position: relative;
+    bottom: 500px;
+}
+.P1 {
+    
+    border-radius: 25px;
+    background: #0ec3f6;
+    border-width: 2px;
+    padding: 0px; 
+    width: 250px;
+    height: 300px; 
+    border-style: solid;
+    border-color: rgb(4, 164, 55);
+    padding-left: 60px;
+    margin: 60px;
+   
+    
+}
+.container {
+    display: flex;
     width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.b1 {
+    position: relative;
+    width: 100%;
+    left: 20px;
 }
