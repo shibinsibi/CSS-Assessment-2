@@ -119,6 +119,13 @@
     position: relative;
     bottom: 500px;
 }
+.container {
+    display: flex;
+    width: 100%; 
+    align-items: center; 
+    position: relative;
+    bottom: 500px;
+}
 .P1 {
     
     border-radius: 25px;
@@ -131,19 +138,33 @@
     border-color: rgb(4, 164, 55);
     padding-left: 60px;
     margin: 60px;
+    
+    
    
     
 }
-.container {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    
-}
-.b1 {
+span {
     position: relative;
-    width: 100%;
-    left: 20px;
+    right: -200px;
+}
+#w1 {
+    text-align: center;
+    position: relative;
+    left: -40px;
+}
+#s1 {
+    text-align: center;
+    position: relative;
+    left: -20px;
+}
+#b1 {
+    position: relative;
+    left: -60px;
+    width: 120%;
+}
+label {
+    width: 100px;
+}
+.size-40 {
+    width: 160px;
 }
